@@ -11,14 +11,7 @@ import time
 
 
 firebaseConfig = {
-    "apiKey": "AIzaSyBXNPUMNiBRvhh-7mAMsZgzF3Fu54x4ElA",
-    "authDomain": "adminpanel-a1a28.firebaseapp.com",
-    "databaseURL": "https://adminpanel-a1a28.firebaseio.com",
-    "projectId": "adminpanel-a1a28",
-    "storageBucket": "adminpanel-a1a28.appspot.com",
-    "messagingSenderId": "665725818545",
-    "appId": "1:665725818545:web:db51bb6c1e2d8054c67490",
-    "measurementId": "G-P47FG84TDL"
+   # YOUR API INFO
   }
 
 firebase = pyrebase.initialize_app(firebaseConfig)
